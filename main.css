@@ -1,0 +1,96 @@
+:root {
+  --main-font-family: courier;
+  margin: 0%;
+}
+
+* {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  }
+
+
+.header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: var(--main-font-family);
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-family: var(--main-font-family);
+  font-size: 18px;
+}
+
+p  {
+  color: black;
+}
+
+#media {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  width: 92vw;
+  height: 25vh;
+}
+
+img, video {
+  justify-content: center;
+  position: absolute;
+  right: 50%;
+  transform: translate(50%,0%);
+  max-width:100%;
+  max-height:100%;
+}
+
+@media screen and (min-width: 800px) {
+  #media {
+    height: 50vh;
+  }
+}
+
+#answers {
+  text-align: center;
+}
+
+#answer {
+  text-align: center;
+  font-family: var(--main-font-family);
+  font-weight: bold;
+}
+
+.myBtn {
+  background-color: #4e5049;
+  border: none;
+  color: white;
+  padding: 25px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#status {
+  text-align: center;
+}
+
+#losuj {
+  font-weight:800;
+  font-size: 15px;
+  border: 2px black solid;
+  padding: 10px;
+
+}

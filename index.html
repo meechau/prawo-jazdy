@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>prawo jazdy</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+
+  <div class="header">
+    <h1>Prawo jazdy</h1>
+  </div>
+
+  <div class="container">
+    <h1 id="questionNumber"></h1>
+    <h2 class="question"></h2> 
+    <div id="answers"></div>
+  </div>
+
+  <p id="answer"></p>
+
+ 
+  <div id="media"></div>
+
+
+  <div id="status" class="container">
+    <h3 class="points"></h3> 
+    <h3 class="scope"></h3>
+
+    <input type="button" id="losuj" onclick="loadDoc();insertDoc();" value="losuj pytanie">
+    <br>
+
+    <!--  resize img buttons
+    <input type="button" onclick="reduceJPG();resizeJPG();" value="pomniejsz">
+    <input type="button" onclick="enlargeJPG();resizeJPG();" value="powiększ"><br><br>
+    -->
+
+    <nobr id="pointsGathered">Zdobyto punktów 0</nobr>
+    <nobr id="pointsPossible"> z 0 możliwych do zdobycia.</nobr>
+  </div>
+
+  <script src="main.js"></script>
+</body>
