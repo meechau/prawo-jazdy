@@ -2,6 +2,8 @@
 
 This repository contais only 4 media files to serve as an example. The whole media package is over 3gb heavy. If you want to get all the files follow the instruction. 
 
+For live version visit https://meechau.github.io/
+
 SETTING UP
 
 1. Clone the repository.
